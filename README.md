@@ -13,7 +13,7 @@ We also provides you the origin , distribution , uses and benefits of herbs .
 
 * HTML
 * CSS
-* JS
+* JAVASCRIPT
 * Bootstrap
 * React
 
