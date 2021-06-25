@@ -63,14 +63,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 * Vanshika 
 * Soumili 
 * Mansi Jain
-=======
 
-* Jatin Jain
-* Vanshika 
-* Soumili 
-* Mansi Jain
 
->>>>>>> 0b94a1d9ed0aaaddd62f10b2a407dd45460a5464
+>>>>>>> 
 
 
 
