@@ -13,7 +13,7 @@ We also provides you the origin , distribution , uses and benefits of herbs .
 
 * HTML
 * CSS
-* JAVASCRIPT
+* JS
 * Bootstrap
 * React
 
@@ -57,11 +57,20 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 <li>If you like our Initiative drop a ⭐</li>
 <h2 >Contributors :</h2>
 <h3 >Credit goes to these people !!</h3>
+<<<<<<< HEAD
 
 * Jatin Jain
 * Vanshika 
 * Soumili 
 * Mansi Jain
+=======
+
+* Jatin Jain
+* Vanshika 
+* Soumili 
+* Mansi Jain
+
+>>>>>>> 0b94a1d9ed0aaaddd62f10b2a407dd45460a5464
 
 
 

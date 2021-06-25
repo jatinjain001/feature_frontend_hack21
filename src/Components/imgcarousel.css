@@ -1,0 +1,17 @@
+.carousel-inner{
+     height: 500px;
+     width: 80%;
+     margin-left: 10%;
+     margin-right: 10%;
+ }
+ .carousel-control-prev{
+     margin-left: 10%;
+ }
+ .carousel-control-next{
+    margin-right: 10%;
+}
+
+ .item, img{
+     height: 100% ;
+    
+ }
