@@ -1,12 +1,13 @@
-
 import './App.css';
 
-import Navbar from './Components/Navbar';
+import ImgCarousel from './Components/ImgCarousel';
 
 function App() {
   return (
-    <Navbar></Navbar>
+    <>
+    <ImgCarousel/>
+    </>
   );
 }
 
-export default App;
+export default App; 
