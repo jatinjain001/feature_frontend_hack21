@@ -57,15 +57,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 <li>If you like our Initiative drop a ⭐</li>
 <h2 >Contributors :</h2>
 <h3 >Credit goes to these people !!</h3>
-<<<<<<< HEAD
 
 * Jatin Jain
 * Vanshika 
 * Soumili 
 * Mansi Jain
 
-
->>>>>>> 
 
 
 
