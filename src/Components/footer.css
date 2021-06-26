@@ -1,0 +1,21 @@
+.footer {
+    height: 200px;
+    background-color: #005714;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #FFFFFF;
+}
+
+.input-style {
+    width: 50%;
+}
+
+.btn-style {
+    background-color: #FFFFFF;
+    color: #0055FF;
+}
