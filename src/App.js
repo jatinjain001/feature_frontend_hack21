@@ -50,10 +50,6 @@ function App() {
         <
         /div>
 
-
-
-
-
         <
         />
     );
