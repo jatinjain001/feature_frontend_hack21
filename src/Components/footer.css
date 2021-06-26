@@ -1,0 +1,71 @@
+/*.footer {
+    height: 200px;
+    background-color: #005714;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+*/
+input[type="text"] {
+    color: #ffffff;
+    margin-left: 120px;
+    font-weight: bold;
+}
+.footer {
+    bottom: 0;
+    background-color: #005714;
+    position: absolute;
+    height: 200px;
+    left: 0;
+    font-size: small;
+    width:100%;
+  }
+.btn-style {
+    background-color: #ffffff;
+    color: #0055ff;
+    font-weight: bold;
+}
+
+.copyright-style {
+    font-size: 14px;
+    margin-top: -45px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 44px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: radial-gradient( circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    color: white;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-github {
+    background: #000000;
+    color: white;
+}
