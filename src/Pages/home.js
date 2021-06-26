@@ -3,11 +3,8 @@ import ImgCarousel from '../Components/ImgCarousel';
 import { herbData } from '../data.js';
 import Herbs from '../Components/Herb';
 
-export default function Home(){
 
-    const styles={
-        margin:"2%",
-    }
+export default function Home(){
     return (
         <>
          <ImgCarousel/>
@@ -26,6 +23,7 @@ export default function Home(){
                 );
             })
         }
+        
         </>
     )
 }
