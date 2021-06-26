@@ -2,7 +2,7 @@ import './App.css';
 
 import ImgCarousel from './Components/ImgCarousel';
 import Herbs from './Components/Herb'
-import Footer from './Components/Footer';
+import Footer from './Components/footer';
 import Navbar from './Components/Navbar';
 
 function App() {
