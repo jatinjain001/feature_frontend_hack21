@@ -18,11 +18,12 @@ import Home from './Pages/home';
 
 
 
+
 function App() {
-    return ( <
-        Router >
-        <
-        Navbar / >
+    return ( 
+      <>
+      <Router >
+        <Navbar / >
         <
         Switch >
         <
@@ -50,6 +51,8 @@ function App() {
         /> 
         < /Switch > <
         /Router>
+        <Footer/>
+        </>
     );
 }
 
