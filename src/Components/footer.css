@@ -7,15 +7,58 @@
     width: 100%;
 }
 
-input::placeholder {
-    color: #FFFFFF;
-}
-
-.input-style {
-    width: 50%;
+input[type="text"] {
+    color: #ffffff;
+    margin-left: 120px;
+    font-weight: bold;
 }
 
 .btn-style {
-    background-color: #FFFFFF;
-    color: #0055FF;
+    background-color: #ffffff;
+    color: #0055ff;
+    font-weight: bold;
+}
+
+.copyright-style {
+    font-size: 14px;
+    margin-top: -45px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 44px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: radial-gradient( circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    color: white;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-github {
+    background: #000000;
+    color: white;
 }
