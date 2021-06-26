@@ -11,8 +11,8 @@ const Events = () => {
             }
         } >
         <
-        h1 > Welcome to GeeksforGeeks Events < /h1> <
-        /div>
+        h1 > Welcome to GeeksforGeeks Events < /h1> < /
+        div >
     );
 };
 

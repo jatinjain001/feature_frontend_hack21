@@ -11,8 +11,8 @@ const Blogs = () => {
             }
         } >
         <
-        h1 > Welcome to GeeksforGeeks Blogs < /h1> <
-        /div>
+        h1 > Welcome to GeeksforGeeks Blogs < /h1> < /
+        div >
     );
 };
 

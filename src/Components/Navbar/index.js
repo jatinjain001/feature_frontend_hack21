@@ -9,48 +9,48 @@ import {
 } from './NavbarElements';
 
 const Navbar = () => {
-    return ( <
-        >
-        <
-        Nav >
-        <
-        Bars / >
+    return ( < >
+            <
+            Nav >
+            <
+            Bars / >
 
-        <
-        NavMenu >
-        <
-        NavLink to = '/aromatic'
-        activeStyle >
-        About <
-        /NavLink> <
-        NavLink to = '/culinary'
-        activeStyle >
-        Events <
-        /NavLink> <
-        NavLink to = '/annuals'
-        activeStyle >
-        Annual Report <
-        /NavLink> <
-        NavLink to = '/medicinal'
-        activeStyle >
-        Teams <
-        /NavLink> <
-        NavLink to = '/perennials'
-        activeStyle >
-        Blogs <
-        /NavLink> <
-        NavLink to = '/biennials'
-        activeStyle >
-        Sign Up <
-        /NavLink> { /* Second Nav */ } { /* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */ } <
+            <
+            NavMenu >
+            <
+            NavLink to = '/aromatic'
+            activeStyle >
+            About <
+            /NavLink> <
+            NavLink to = '/culinary'
+            activeStyle >
+            Events <
+            /NavLink> <
+            NavLink to = '/annuals'
+            activeStyle >
+            Annual Report <
+            /NavLink> <
+            NavLink to = '/medicinal'
+            activeStyle >
+            Teams <
+            /NavLink> <
+            NavLink to = '/perennials'
+            activeStyle >
+            Blogs <
+            /NavLink> <
+            NavLink to = '/biennials'
+            activeStyle >
+            Sign Up <
+            /NavLink> { / * Second Nav * / } { / * < NavBtnLink to = '/sign-in' > Sign In < /NavBtnLink> */
+        } <
         /NavMenu> <
-        NavBtn >
+    NavBtn >
         <
-        NavBtnLink to = '/signin' > Sign In < /NavBtnLink> <
-        /NavBtn> <
-        /Nav> <
-        />
-    );
+        NavBtnLink to = '/signin' > Sign In < /NavBtnLink> < /
+        NavBtn > <
+        /Nav> < /
+        >
+);
 };
 
 export default Navbar;

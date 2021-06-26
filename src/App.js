@@ -33,13 +33,14 @@ function App() {
                     div >
                     <
                     Herbs style = {
-                        { positon: 'relative' } }
+                        { positon: 'relative' }
+                    }
                     key = { val.id }
                     imgscr = { val.imgsrc }
                     title = { val.title }
                     desc = { val.description }
-                    /> <
-                    /div>
+                    /> < /
+                    div >
                 );
             })
         } <
@@ -86,8 +87,8 @@ function App() {
         /> <
         Route path = '/sign-up'
         component = { SignUp }
-        /> <
-        /Switch> <
+        /> < /
+        Switch > <
         /Router>
     );
 }
