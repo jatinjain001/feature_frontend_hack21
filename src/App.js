@@ -3,23 +3,25 @@ import './App.css';
 import ImgCarousel from './Components/ImgCarousel';
 import Herbs from './Components/Herb'
 import Footer from './Components/Footer';
+import {herbData} from './data.js';
 import Navbar from './Components/Navbar';
 
-function App() {
 
-  const styles={
-    justifyContent:"row",
-    display: "flex",
-    float:"left",
-  };
+function App() {
   return (
     <>
     <Navbar/>
     <ImgCarousel/>
-     <div style={styles} className="container "> 
-        <Herbs/>
-     </div>
-    <Footer/>
+    {herbData.map((val) => {
+      return (
+        <Herbs
+          key={val.id}
+          imgscr={val.imgsrc}
+          title={val.title}
+          desc={val.description}
+        />
+      );
+    })}
     </>
   );
 }

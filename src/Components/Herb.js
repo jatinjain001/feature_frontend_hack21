@@ -1,39 +1,20 @@
 import React from 'react';
-import {herbData} from '../data';
 import './herbs.css';
-
-function Herbs (){
-  const styles={
-    margin:"20px 20px 20px 20px",
-  }
+    
+function Herbs(props) {
+  console.log(props);
     return (
-        <>
-          {herbData.map((data) => {
-            return (
-              <div style={styles}>
-                <Herb 
-                  image={data.imgsrc}
-                  title={data.title}
-                  description={data.description}
-                />
-              </div>
-            );
-          })}
+      <>
+        <div className="cards container">
+          <div className="card">
+            <img src={props.imgscr} alt="myPic" className="card_img" />
+            <div className="card_info">
+              <span className="card_category">{props.title}</span>
+              <h3 className="card_title">{props.sname}</h3>
+            </div>
+          </div>
+        </div>
       </>
     );
-  };
-
-  const Herb = ({image, title,description}) => {
-      const width="18rem";
-    return (
-        <div className="card" style={{width}}>
-        <img className="card-img-top" src={{image}} alt="Card image cap"/>
-        <div className="card-body">
-          <h5 className="card-title">{title}</h5>
-          <p className="card-text">{description}</p>
-          <a href="#">Learn more</a>
-        </div>
-      </div>
-    );
-  };
-  export default Herbs;
+  }
+export default Herbs
