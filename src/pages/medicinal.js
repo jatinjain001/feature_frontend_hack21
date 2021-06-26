@@ -11,8 +11,8 @@ const Home = () => {
             }
         } >
         <
-        h1 > Welcome to GeeksforGeeks < /h1> <
-        /div>
+        h1 > Welcome to GeeksforGeeks < /h1> < /
+        div >
     );
 };
 

@@ -12,8 +12,7 @@ const AnnualReport = () => {
             }
         } >
         <
-        h1 > Annual Report < /h1> < /
-        div >
+        h1 > Annual Report < /h1> </div >
     );
 };
 
