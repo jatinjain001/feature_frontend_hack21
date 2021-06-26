@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Annuals() {
+export default function Annuals (){
     return ( <
 
         div style = {

@@ -13,6 +13,7 @@ import Culinary from './Pages/culinary';
 import Biennials from './Pages/biennials';
 import Medicinal from './Pages/medicinal';
 import Perennials from './Pages/perennials';
+import Home from './Pages/home';
 
 
 
@@ -26,6 +27,10 @@ function App() {
         Switch >
         <
         Route path = '/'
+        exact component = { Home }
+        />
+        <
+        Route path = '/aromatic'
         exact component = { Aromatic }
         /> <
         Route path = '/annuals'
