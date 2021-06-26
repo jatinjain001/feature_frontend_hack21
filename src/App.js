@@ -16,9 +16,9 @@ function App() {
     <>
     <Navbar/>
     <ImgCarousel/>
-     {/* <div style={styles} className="container"> 
+     <div style={styles} className="container"> 
         <Herbs/>
-     </div> */}
+     </div>
     <Footer/>
     </>
   );
