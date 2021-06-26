@@ -1,7 +1,7 @@
 import React from 'react';
 import './herbs.css';
 import { Link ,BrowserRouter  as Router} from 'react-router-dom';
-    
+
 function Herbs(props) {
   console.log(props);
     return (

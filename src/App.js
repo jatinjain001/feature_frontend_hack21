@@ -5,7 +5,7 @@ import Herbs from './Components/Herb';
 import {herbData} from './data.js';
 import Routing from './Routes/routes';
 import Navbar from './Components/Navbar';
-
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -13,7 +13,6 @@ function App() {
     <Navbar/>
     <Routing/>
     <ImgCarousel/>
-    
     {herbData.map((val) => {
       return (
         <Herbs  style={{positon : 'relative'}}
@@ -24,7 +23,7 @@ function App() {
         />
       );
     })}
-  
+
     </>
     
   );

@@ -7,11 +7,10 @@ export default function Routing(){
         <Router>
           <Switch>
              <Route path="/Home" >
-                <ImgCarousel/>
+                <Desc/>
              </Route>
+             <Route></Route>
           </Switch>
-
         </Router>
-
   )
 }
