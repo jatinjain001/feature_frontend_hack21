@@ -9,7 +9,6 @@ function Herbs (){
             return (
               <div key={key} >
                 <Herb
-                  key={key}
                   image={data.imgsrc}
                   title={data.title}
                   description={data.description}
@@ -21,11 +20,11 @@ function Herbs (){
     );
   };
 
-  const Herb = ({ imgsrc, title,description}) => {
+  const Herb = ({image, title,description}) => {
       const width="18rem";
     return (
         <div className="card" style={{width}}>
-        <img className="card-img-top" src={imgsrc} alt="Card image cap"/>
+        <img className="card-img-top" src={{image}} alt="Card image cap"/>
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{description}</p>
