@@ -3,12 +3,15 @@ import {herbData} from '../data';
 import './herbs.css';
 
 function Herbs (){
+  const styles={
+    margin:"20px 20px 20px 20px",
+  }
     return (
         <>
-          {herbData.map((data, key) => {
+          {herbData.map((data) => {
             return (
-              <div key={key} >
-                <Herb
+              <div style={styles}>
+                <Herb 
                   image={data.imgsrc}
                   title={data.title}
                   description={data.description}
