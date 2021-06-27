@@ -1,7 +1,6 @@
 import React from 'react';
 import './herbs.css';
 import { Link ,BrowserRouter  as Router} from 'react-router-dom';
-import Footer from './Footer';
 
 function Herbs(props) {
   console.log(props);

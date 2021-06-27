@@ -49,9 +49,8 @@ function App() {
         Route path = '/medicinal'
         component = { Medicinal }
         /> 
-        < /Switch > <
-        /Router>
-        <Footer/>
+        </Switch>
+        </Router>
         </>
     );
 }

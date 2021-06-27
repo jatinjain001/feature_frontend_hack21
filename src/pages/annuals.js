@@ -1,18 +1,28 @@
 import React from 'react';
+import {annualData} from '../descrip';
+import Herbs from '../Components/Herb';
 
-export default function Annuals (){
-    return ( <
 
-        div style = {
-            {
-                display: 'flex',
-                justifyContent: 'Right',
-                alignItems: 'Right',
-                height: '100vh'
-            }
-        } >
-        <
-        h1 > Annual Report < /h1> </div >
-    );
-};
+export default function Annuals(){
+    return (
+        
+          <> { annualData.map((val) =>{
+                return(
+                    <div >
+                    <Herbs
+                    key = { val.id }
+                    imgscr = { val.imgsrc }
+                    title = { val.title }
+                    desc = { val.description }
+                    /> </div >
+                );
+            })
+        }
+        </>
+    )
+
+}
+
+
+
 
